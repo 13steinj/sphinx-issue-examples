@@ -1,14 +1,13 @@
+somevar = 1
+"""Documentation for this variable"""
+
 class foo(object):
     """Some headers line
 
-    :ivar somevar: some text
+    :ivar somevar: some text for this instance variable
 
     some detailed docstring
     """
-
-    __slots__ = (
-        "somevar", # make this object more memory efficient
-    )
 
     def __init__(self, *a):
         """Initialize a new foo instance
